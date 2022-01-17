@@ -25,3 +25,18 @@ The dataset used is the Life Expectancy (WHO) (https://www.kaggle.com/kumarajars
 - thinness 5-9 years: Prevalence of thinness among children for Age 5 to 9(%)
 - Income composition: Human Development Index in terms of income composition of resources (index ranging from 0 to 1)
 - Schooling: Number of years of Schooling(years)
+
+## Models used:
+### 1. Linear Regression:
+Linear regression a model that assumes a linear relationship between the input variables (x) and the single output variable (y). It is the process of finding a line that best fits the data points available on the plot, so that we can use it to predict output values for inputs that are not present in the data set we have, with the belief that those outputs would fall on the line. A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
+
+### 2. Ridge Regression:
+Ridge regression is a method of estimating the coefficients of multiple-regression models in scenarios where independent variables are highly correlated. It has been used in many fields including econometrics, chemistry, and engineering. The cost function for ridge regression:
+Min(||Y – X(theta)||^2 + λ||theta||^2)
+Lambda is the penalty term. λ given here is denoted by an alpha parameter in the ridge function. So, by changing the values of alpha, we are controlling the penalty term. The higher the values of alpha, the bigger is the penalty and therefore the magnitude of coefficients is reduced.
+
+### 3. Bayesian Linear Regression:
+In statistics, Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference. Bayesian linear regression allows a useful mechanism to deal with insufficient data, or poor distributed data. It allows you to put a prior on the coefficients and on the noise so that in the absence of data, the priors can take over.
+
+### 4. SVM:
+Support Vector Machine(SVM) is a supervised machine learning algorithm used for both classification and regression. The objective of SVM algorithm is to find a hyperplane in an N-dimensional space that distinctly classifies the data points. The dimension of the hyperplane depends upon the number of features.
